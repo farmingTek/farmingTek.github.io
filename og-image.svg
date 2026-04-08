@@ -1,26 +1,60 @@
-<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#151E15"/>
-      <stop offset="50%" style="stop-color:#2A4A2A"/>
-      <stop offset="100%" style="stop-color:#2D5A27"/>
+    <linearGradient id="og-bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5F3EE"/>
+      <stop offset="100%" stop-color="#E5E1DB"/>
     </linearGradient>
+    <linearGradient id="og-primary-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D5A27"/>
+      <stop offset="100%" stop-color="#1E3E1A"/>
+    </linearGradient>
+    <pattern id="og-grid" patternUnits="userSpaceOnUse" width="60" height="60">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#2D5A27" stroke-width="0.5" opacity="0.08"/>
+    </pattern>
   </defs>
-  <rect width="1200" height="630" fill="url(#bg)"/>
-  <circle cx="1100" cy="80" r="200" fill="#C8956C" opacity="0.12"/>
-  <circle cx="100" cy="550" r="150" fill="#C8956C" opacity="0.08"/>
-  <circle cx="900" cy="350" r="100" fill="#2D5A27" opacity="0.3"/>
-  <rect x="80" y="60" width="52" height="52" rx="12" fill="#C8956C"/>
-  <text x="96" y="98" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white">M</text>
-  <text x="148" y="96" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#E8F0E6" letter-spacing="1">MAVUNO</text>
-  <text x="80" y="280" font-family="Georgia, serif" font-size="52" font-weight="bold" fill="white">Agricultural Management,</text>
-  <text x="80" y="345" font-family="Georgia, serif" font-size="52" font-weight="bold" fill="#C8956C">Simplified</text>
-  <text x="80" y="410" font-family="Arial, sans-serif" font-size="20" fill="#A3B8A3">Multi-commodity platform for estates, cooperatives, and factories.</text>
-  <text x="80" y="440" font-family="Arial, sans-serif" font-size="20" fill="#A3B8A3">Coffee, tea, avocado, and more.</text>
-  <rect x="80" y="500" width="140" height="36" rx="18" fill="none" stroke="rgba(232,240,230,0.25)" stroke-width="1"/>
-  <text x="108" y="524" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#E8F0E6">Multi-Tenant</text>
-  <rect x="235" y="500" width="148" height="36" rx="18" fill="none" stroke="rgba(232,240,230,0.25)" stroke-width="1"/>
-  <text x="260" y="524" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#E8F0E6">Offline-Ready</text>
-  <rect x="398" y="500" width="180" height="36" rx="18" fill="none" stroke="rgba(232,240,230,0.25)" stroke-width="1"/>
-  <text x="418" y="524" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#E8F0E6">Multi-Commodity</text>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#og-bg-gradient)"/>
+  <rect width="1200" height="630" fill="url(#og-grid)"/>
+
+  <!-- Decorative elements -->
+  <circle cx="1100" cy="100" r="200" fill="#2D5A27" opacity="0.05"/>
+  <circle cx="100" cy="530" r="150" fill="#C8956C" opacity="0.08"/>
+
+  <!-- Logo icon -->
+  <rect x="80" y="240" width="100" height="100" rx="20" fill="url(#og-primary-gradient)"/>
+  <path d="M110 265 L110 315 L120 315 L120 295 L140 315 L152 315 L126 290 L148 265 L136 265 L120 283 L120 265 Z" fill="#F5F3EE"/>
+  <path d="M143 268 Q150 273 148 280 Q143 273 150 268 Q148 265 143 268 Z" fill="#C8956C"/>
+
+  <!-- Text -->
+  <text x="200" y="295" font-family="Georgia, serif" font-size="56" font-weight="700" fill="#1A1A1A">KilimoTech</text>
+  <text x="200" y="330" font-family="system-ui, sans-serif" font-size="22" fill="#6B7280">Agricultural Management Platform</text>
+
+  <!-- Tagline -->
+  <text x="80" y="430" font-family="system-ui, sans-serif" font-size="28" fill="#1A1A1A">Manage your entire operation from</text>
+  <text x="80" y="470" font-family="system-ui, sans-serif" font-size="28" fill="#1A1A1A">intake to export.</text>
+
+  <!-- Features -->
+  <g font-family="system-ui, sans-serif" font-size="16" fill="#6B7280">
+    <circle cx="92" cy="530" r="4" fill="#2D5A27"/>
+    <text x="108" y="535">Multi-commodity</text>
+
+    <circle cx="272" cy="530" r="4" fill="#2D5A27"/>
+    <text x="288" y="535">Multi-tenant</text>
+
+    <circle cx="420" cy="530" r="4" fill="#2D5A27"/>
+    <text x="436" y="535">Offline-ready</text>
+
+    <circle cx="568" cy="530" r="4" fill="#2D5A27"/>
+    <text x="584" y="535">Kenya &amp; East Africa</text>
+  </g>
+
+  <!-- Domain -->
+  <text x="80" y="590" font-family="monospace" font-size="18" fill="#2D5A27">kilimotech.africa</text>
+
+  <!-- Decorative leaf -->
+  <g transform="translate(1000, 380)">
+    <path d="M0 80 Q40 40 80 0 Q60 60 0 80 Z" fill="#2D5A27" opacity="0.15"/>
+    <path d="M10 70 Q35 40 60 15" stroke="#2D5A27" stroke-width="2" fill="none" opacity="0.2"/>
+  </g>
 </svg>

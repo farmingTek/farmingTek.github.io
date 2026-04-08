@@ -1,0 +1,17 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="favicon-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D5A27"/>
+      <stop offset="100%" stop-color="#1E3E1A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="32" height="32" rx="6" fill="url(#favicon-gradient)"/>
+
+  <!-- K letter -->
+  <path d="M11 8 L11 24 L14 24 L14 17.5 L20 24 L24 24 L16.5 16.25 L23 8 L19 8 L14 14.75 L14 8 Z" fill="#F5F3EE"/>
+
+  <!-- Small leaf accent -->
+  <path d="M21 9 Q24 11 23 14 Q21 11 24 9 Q23 8 21 9 Z" fill="#C8956C"/>
+</svg>
