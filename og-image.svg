@@ -1,0 +1,26 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#151E15"/>
+      <stop offset="50%" style="stop-color:#2A4A2A"/>
+      <stop offset="100%" style="stop-color:#2D5A27"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1100" cy="80" r="200" fill="#C8956C" opacity="0.12"/>
+  <circle cx="100" cy="550" r="150" fill="#C8956C" opacity="0.08"/>
+  <circle cx="900" cy="350" r="100" fill="#2D5A27" opacity="0.3"/>
+  <rect x="80" y="60" width="52" height="52" rx="12" fill="#C8956C"/>
+  <text x="96" y="98" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white">M</text>
+  <text x="148" y="96" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#E8F0E6" letter-spacing="1">MAVUNO</text>
+  <text x="80" y="280" font-family="Georgia, serif" font-size="52" font-weight="bold" fill="white">Agricultural Management,</text>
+  <text x="80" y="345" font-family="Georgia, serif" font-size="52" font-weight="bold" fill="#C8956C">Simplified</text>
+  <text x="80" y="410" font-family="Arial, sans-serif" font-size="20" fill="#A3B8A3">Multi-commodity platform for estates, cooperatives, and factories.</text>
+  <text x="80" y="440" font-family="Arial, sans-serif" font-size="20" fill="#A3B8A3">Coffee, tea, avocado, and more.</text>
+  <rect x="80" y="500" width="140" height="36" rx="18" fill="none" stroke="rgba(232,240,230,0.25)" stroke-width="1"/>
+  <text x="108" y="524" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#E8F0E6">Multi-Tenant</text>
+  <rect x="235" y="500" width="148" height="36" rx="18" fill="none" stroke="rgba(232,240,230,0.25)" stroke-width="1"/>
+  <text x="260" y="524" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#E8F0E6">Offline-Ready</text>
+  <rect x="398" y="500" width="180" height="36" rx="18" fill="none" stroke="rgba(232,240,230,0.25)" stroke-width="1"/>
+  <text x="418" y="524" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#E8F0E6">Multi-Commodity</text>
+</svg>

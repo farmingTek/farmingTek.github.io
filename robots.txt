@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /setup/
+Disallow: /login/
+
+Sitemap: https://kilimotech.africa/sitemap.xml
